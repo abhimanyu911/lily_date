@@ -1,0 +1,122 @@
+/* Make sure the body takes up the full height */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  /* Hogwarts-themed background */
+  body {
+    /* This image is a castle-like silhouette reminiscent of Hogwarts.
+       Feel free to swap in another link if you find a better one! */
+    background: url("wp10521170-hogwarts-4k-wallpapers.jpg")
+                no-repeat center center fixed;
+    background-size: cover;
+  
+    /* Use a fallback background color in case the image doesn’t load */
+    background-color: #333;
+  
+    font-family: 'Roboto', sans-serif;
+    color: #f8f8f2;
+  }
+  
+  /* Header styles */
+  .header-container {
+    text-align: center;
+    padding: 2rem 1rem;
+    /* Lighter overlay so the Hogwarts background can show through */
+    background: rgba(0, 0, 0, 0.4);
+  }
+  
+  .main-title {
+    font-family: 'Marcellus SC', serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #ffc600;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    font-style: italic;
+    color: #ffda7f;
+  }
+  
+  /* Main content styles */
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    /* Slightly lighter overlay so the background shows through more */
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  /* Section headings */
+  .intro-section h2,
+  .itinerary-section h2,
+  .second-date-section h2 {
+    font-family: 'Marcellus SC', serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #ffc600;
+  }
+  
+  /* Intro paragraph */
+  .intro-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Divider styles */
+  .divider {
+    height: 1px;
+    background-color: #ffc600;
+    margin: 2rem 0;
+  }
+  
+  /* Itinerary list */
+  .itinerary-section ol {
+    list-style: decimal inside;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .itinerary-section li {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Link styles */
+  .magic-link {
+    color: #ffda7f;
+    text-decoration: underline;
+  }
+  .magic-link:hover {
+    color: #ffc600;
+  }
+  
+  /* Second date section */
+  .second-date-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Footer styles */
+  .footer-container {
+    text-align: center;
+    padding: 1rem;
+    /* Dark overlay, but made lighter than before */
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 2rem;
+  }
+  
+  .footer-container p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
