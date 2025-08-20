@@ -119,4 +119,10 @@ html, body {
     font-size: 0.9rem;
     color: #ccc;
   }
+
+/* --- Contrast boost: darker panels behind text --- */
+.header-container { background: rgba(0, 0, 0, 0.85); }  /* was 0.40 */
+main              { background: rgba(0, 0, 0, 0.78); }  /* was 0.30 */
+.footer-container { background: rgba(0, 0, 0, 0.85); }  /* was 0.50 */
+
   
